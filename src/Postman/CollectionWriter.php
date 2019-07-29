@@ -62,6 +62,7 @@ class CollectionWriter
                                         'value' => isset($parameter['value']) ? $parameter['value'] : '',
                                         'type' => 'text',
                                         'enabled' => true,
+                                        'description'=>$parameter['description']
                                     ];
                                 })->values()->toArray()
                             ];
